@@ -1,5 +1,4 @@
-Scraped flags of the world
-==============================================================================
+# Scraped flags of the world
 
 Since I couldn't find a replete resource of up to date SVG flags of the world
 _with licenses_ I've scraped Wikipedia and saved them all here.
@@ -11,19 +10,21 @@ Licenses have been saved into `licenses.csv`.
 
 ![Flags](https://f.cloud.github.com/assets/67624/2029987/bf976a36-88ef-11e3-81bf-cbd1bb6966a9.png)
 
-Installation
-------------------------------------------------------------------------------
+## Installation
 
-* Set up a [`virtualenv`](venv) for development to keep dependencies separate.
-* Install python packages with `pip install -r requirements.txt`.
-* Install node packages with `npm install`
+- Set up a [`virtualenv`](venv) for development to keep dependencies separate.
+- Install python packages with `pip install -r requirements.txt`.
+- Install node packages with `npm install`
 
-Running
-------------------------------------------------------------------------------
+## Running
 
-* Get the flags with `python-from-virtual get_flags.py`.
-* Build the PNG and CSS data urls with `grunt`.
+- Get the flags with `python-from-virtual get_flags.py`.
+- Build the PNG and CSS data urls with `grunt`.
 
-License
-------------------------------------------------------------------------------
+## License
+
 [MIT license](http://en.wikipedia.org/wiki/MIT_License)
+
+## Note
+
+Inspired from: https://bit.ly/3aJpk65
